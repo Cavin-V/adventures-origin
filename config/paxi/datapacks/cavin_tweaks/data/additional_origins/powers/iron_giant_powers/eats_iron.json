@@ -1,0 +1,76 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1200,
+  "name": "Absorb Iron",
+  "description": "You can 'absorb' an entire block of solid iron to repair yourself.",
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "clear @s iron_block 1"
+      },
+      {
+        "type": "origins:heal",
+        "amount": 8
+      },
+	  {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "effect give @s minecraft:absorption 30 0"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.iron_golem.repair"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:iron_block"
+              }
+            }
+          },
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "offhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:iron_block"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "origins:sneaking",
+        "inverted": true
+      }
+    ]
+  },
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 3
+  }
+}

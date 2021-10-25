@@ -1,0 +1,5 @@
+execute as @s if score addOriTest add_ori_tickloop <= addOri100 add_ori_tickloop if score addOriTest add_ori_tickloop >= addOri90 add_ori_tickloop run give @s minecraft:emerald 1
+execute as @s if score addOriTest add_ori_tickloop <= addOri90 add_ori_tickloop if score addOriTest add_ori_tickloop >= addOri60 add_ori_tickloop run give @s minecraft:coal 1
+execute as @s if score addOriTest add_ori_tickloop <= addOri60 add_ori_tickloop if score addOriTest add_ori_tickloop >= addOri50 add_ori_tickloop run give @s minecraft:arrow 2
+execute as @s if score addOriTest add_ori_tickloop <= addOri50 add_ori_tickloop if score addOriTest add_ori_tickloop >= addOri30 add_ori_tickloop run give @s minecraft:arrow 1
+execute as @s if score addOriTest add_ori_tickloop <= addOri30 add_ori_tickloop if score addOriTest add_ori_tickloop >= addOri0 add_ori_tickloop run give @s minecraft:bread 1

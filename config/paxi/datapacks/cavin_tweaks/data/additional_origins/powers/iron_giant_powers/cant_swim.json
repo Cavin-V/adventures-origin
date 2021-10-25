@@ -1,0 +1,6 @@
+{
+  "type": "origins:ignore_water",
+  "hidden": false,
+  "name": "Can't Swim",
+  "description": "You are so heavy that you can't even swim."
+}

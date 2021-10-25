@@ -1,0 +1,59 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+	"frenzy_effects": {
+		"hidden": true,
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 1,
+		"max_stacks": 1,
+		"duration_per_stack": 20,
+		"effects": [
+			{
+				"effect": "minecraft:strength",
+				"amplifier": 1,
+				"duration": 20,
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:jump_boost",
+				"amplifier": 1,
+				"duration": 20,
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:hunger",
+				"amplifier": 4,
+				"duration": 20,
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			}
+		],
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:dhampir_powers/toggle_frenzy"
+		}
+	},
+	"dayburn": {
+		"hidden": true,
+		"type": "origins:burn",
+		"interval": 20,
+		"burn_duration": 1,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:exposed_to_sun"
+				},
+				{
+					"type": "origins:power_active",
+					"power": "*:dhampir_powers/toggle_frenzy"
+				}
+			]
+		}
+	}
+}

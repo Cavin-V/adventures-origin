@@ -1,0 +1,6 @@
+{
+	"type": "origins:night_vision",
+	"strength": 0.2,
+    "name": "Darksight",
+    "description": "You have slight night vision"
+}

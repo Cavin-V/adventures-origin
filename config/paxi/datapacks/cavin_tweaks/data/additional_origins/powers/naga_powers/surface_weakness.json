@@ -1,0 +1,40 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 1,
+	"duration_per_stack": 60,
+	"effects": [
+		{
+			"effect": "minecraft:weakness",
+			"amplifier": 0,
+			"duration": 20,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:blindness",
+			"amplifier": 0,
+			"duration": 20,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+    "condition": {
+		"type":"origins:and",
+		"conditions": [
+			{
+				"type": "origins:submerged_in",
+				"fluid": "minecraft:water",
+				"inverted": true
+			},
+			{
+				"type": "origins:in_rain",
+				"inverted": true
+			}
+		]
+	},
+    "name": "Surface Weakness",
+    "description": "You have weakness and blindness when you are out of water."
+}

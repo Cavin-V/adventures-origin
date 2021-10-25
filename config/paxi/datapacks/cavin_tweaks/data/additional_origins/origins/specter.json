@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"additional_origins:specter_powers/darksight",
+		"additional_origins:specter_powers/darkness_buff",
+		"additional_origins:specter_powers/translucent",
+		"additional_origins:specter_powers/phantomize",
+		"additional_origins:specter_powers/phasing",
+		"additional_origins:specter_powers/invisibility",
+		"additional_origins:specter_powers/hunger_over_time",
+		"additional_origins:specter_powers/phantomize_overlay",
+		"additional_origins:specter_powers/undead",
+		"additional_origins:specter_powers/day_weakness",
+		"additional_origins:specter_powers/iron_weakness",
+		"additional_origins:specter_powers/salt_fear"
+	],
+	"icon": "minecraft:phantom_membrane",
+	"order": 10,
+	"impact": 3,
+	"name":"Specter",
+	"description": "A Specter of the night, capable of high speeds in darkness, and can even turn invisible."
+}

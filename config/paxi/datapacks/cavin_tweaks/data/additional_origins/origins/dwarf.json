@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"additional_origins:dwarf_powers/short",
+		"additional_origins:dwarf_powers/gold_fever",
+		"additional_origins:dwarf_powers/darkvision",
+		"additional_origins:dwarf_powers/weakness",
+		"additional_origins:dwarf_powers/dwarven_stomach"
+	],
+	"icon": "minecraft:iron_pickaxe",
+	"order": 10,
+	"impact": 2,
+	"name":"Darkener",
+	"description": "Originating from above the surface, this sturdy race of shortened humanoids vanished below the earth to retreat from an ancient, long forgotten threat."
+}

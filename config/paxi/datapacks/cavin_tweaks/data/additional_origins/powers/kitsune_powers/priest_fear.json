@@ -1,0 +1,23 @@
+{
+	"name": "Fear of Purity",
+	"description": "When near certain members of religous practice, you are struck with blindness and hunger, kill them fast.",
+	"type": "origins:multiple",
+	"blindness": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "execute if entity @e[type=minecraft:villager,nbt={VillagerData:{profession:\"minecraft:cleric\"}},distance=..30] run effect give @s minecraft:blindness 3",
+			"permission_level": 4
+		}
+	},
+	"hunger": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "execute if entity @e[type=minecraft:villager,nbt={VillagerData:{profession:\"minecraft:cleric\"}},distance=..30] run effect give @s minecraft:hunger 3",
+			"permission_level": 4
+		}
+	}
+}

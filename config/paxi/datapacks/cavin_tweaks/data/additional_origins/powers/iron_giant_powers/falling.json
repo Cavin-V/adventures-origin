@@ -1,0 +1,10 @@
+{
+	"type": "origins:toggle",
+	"name": "Overdrive Slam",
+	"description": "When used in the air, you slam down onto the ground and cause a massive explosion.",
+    "active_by_default": false,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	}
+}

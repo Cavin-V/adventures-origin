@@ -1,0 +1,32 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.1,
+		"name":"Increased darkness speed"
+	},
+	"condition": {
+		"type":"origins:and",
+		"conditions": [
+			{
+				"type": "origins:brightness",
+				"comparison": "<",
+				"compare_to": 0.4
+			},
+			{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:block",
+					"block": "bewitchment:salt_line"
+				},
+				"radius": 15,
+				"shape": "cube",
+				"comparison": "<",
+				"compare_to": 1
+			}
+		]
+	},
+    "name": "Dark Loving",
+    "description": "You become significantly faster while in darkness."
+}

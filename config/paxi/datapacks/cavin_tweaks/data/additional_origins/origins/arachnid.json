@@ -1,0 +1,16 @@
+{
+	"name": "Arachnid",
+	"description": "A race closer to spiders than humans.",
+	"powers": [
+		"additional_origins:arachnid_powers/short",
+		"origins:climbing",
+		"origins:master_of_webs",
+		"origins:carnivore",
+		"origins:arthropod"
+	],
+	"icon": {
+		"item": "minecraft:cobweb"
+	},
+	"order": 1,
+	"impact": 1
+}

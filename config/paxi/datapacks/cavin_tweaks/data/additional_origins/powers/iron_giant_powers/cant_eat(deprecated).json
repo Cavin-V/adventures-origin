@@ -1,0 +1,236 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+    "type": "origins:or",
+       "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:mushroom_stew"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:bread"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_porkchop"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:porkchop"
+        }
+      },
+
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_cod"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_salmon"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cake"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cookie"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cod"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:salmon"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:pufferfish"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:melon_slice"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:dried_kelp"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_beef"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_chicken"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:baked_potato"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:beef"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:potato"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:poisonous_potato"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:apple"
+        }
+      },
+
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:pumpkin_pie"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:rabbit_stew"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_mutton"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:chorus_fruit"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:suspicious_stew"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:beetroot_soup"
+        }
+      },
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:beetroot"
+        }
+      },
+
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:carrot"
+        }
+      },
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:rabbit"
+        }
+      },
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:tropical_fish"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:sweet_berries"
+        }
+      },
+			{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:mutton"
+        }
+			},
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:rotten_flesh"
+        }
+      },
+			 {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:spider_eye"
+        }
+      },
+				{
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:chicken"
+        }
+			},
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:honey_bottle"
+        }
+      }
+    ]
+    },
+    "name": "Food Restriction",
+    "description": "you cant eat normal food.",
+    "hidden": true
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Psychic Infatuation",
+	"description": "With your powers of psychic manipulation, you can convince the simple minded villagers of the world to give you cheaper prices as if you'd just saved them from imminent death.",
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "execute if entity @e[type=minecraft:villager,distance=..15] run effect give @s minecraft:hero_of_the_village 20",
+		"permission_level": 4
+	}
+}

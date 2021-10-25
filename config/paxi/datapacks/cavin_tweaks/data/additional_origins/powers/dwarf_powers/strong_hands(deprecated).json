@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_harvest",
+  "allow": true,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "origins:natural_stone"
+  },
+   "name": "Strong Hands",
+   "description": "You have the ability to brake any natural stone with your bare hands."
+}

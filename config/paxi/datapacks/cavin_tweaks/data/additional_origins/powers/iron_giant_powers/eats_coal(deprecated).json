@@ -1,0 +1,73 @@
+{
+  "type": "origins:active_self",
+  "hidden": false,
+  "cooldown": 100,
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "clear @s coal 1"
+      },
+      {
+        "type": "origins:feed",
+        "food": 6,
+        "saturation": 0.5
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.iron_golem.repair"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:coal"
+              }
+            }
+          },
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "offhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:coal"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "origins:sneaking",
+        "inverted": true
+      }
+    ]
+  },
+  "hud_render": {
+    "should_render": false,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 10
+  },
+  "name": "Fueled",
+  "description": "As opposed to eating normal food, you instead can only consume coal and coal blocks."
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Summon Trident",
+  "description": "With your enhanced attunement to the magical realm, use a catalyst of great power to summon a trident with channeling capabilities. Though how hard can a nether star really be to get?",
+  "type": "origins:active_self",
+  "cooldown": 2400,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "clear @s minecraft:nether_star 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "give @s minecraft:trident{Enchantments:[{id:channeling,lvl:1}]} 1"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:nether_star"
+              }
+            }
+          },
+          {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "offhand",
+            "item_condition": {
+              "type": "origins:ingredient",
+              "inverted": false,
+              "ingredient": {
+                "item": "minecraft:nether_star"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "origins:sneaking",
+        "inverted": true
+      }
+    ]
+  },
+  "hud_render": {
+    "should_render": false,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 12
+  }
+}

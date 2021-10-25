@@ -1,0 +1,18 @@
+{
+  "powers": [
+	"additional_origins:iron_giant_powers/falling",
+	"additional_origins:iron_giant_powers/overdrive_slam",
+	"additional_origins:iron_giant_powers/thruster_leap",
+	"additional_origins:iron_giant_powers/heavy",
+	"additional_origins:iron_giant_powers/tall",
+	"additional_origins:iron_giant_powers/long_arms",
+	"additional_origins:iron_giant_powers/water_breathing",
+	"additional_origins:iron_giant_powers/cant_swim",
+	"additional_origins:iron_giant_powers/eats_iron"
+  ],
+  "icon": "minecraft:iron_block",
+  "order": 10,
+  "impact": 2,
+  "name":"Ancient Behemoth",
+  "description": "Ancient Behemoths are ancient constructs of a world now lost to time. Not much is know of them outside of their abilities."
+}

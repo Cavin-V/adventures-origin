@@ -1,0 +1,38 @@
+{
+	"name": "Sodium Weakness",
+	"description": "With your ghostly form, you are weak to any form of salt in the world, just being near it will cause you weakness.",
+	"type": "origins:action_over_time",
+	"condition": {
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:block",
+					"block": "bewitchment:salt_line"
+				},
+				"radius": 3,
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:block",
+					"block": "bewitchment:salt_block"
+				},
+				"radius": 5,
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+			}
+		]
+	},
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "effect give @s minecraft:weakness 10 1",
+		"permission_level": 4
+	}
+}

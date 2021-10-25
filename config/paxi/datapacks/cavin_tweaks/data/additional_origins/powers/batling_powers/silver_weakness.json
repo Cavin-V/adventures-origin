@@ -1,0 +1,82 @@
+{
+    "name": "Silver Aversion",
+    "description": "You take extra damage from any silver equipment.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "bewitchment:silver_ingot"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "techreborn:silver_ingot"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "ironchest:silver_ingot"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_ingot"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_sword"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_axe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_pickaxe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_shovel"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "mythicmetals:silver_hoe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "bewitchment:athame"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "name": "Weak to silver items",
+        "operation": "addition",
+        "value": 2.0
+    }
+}

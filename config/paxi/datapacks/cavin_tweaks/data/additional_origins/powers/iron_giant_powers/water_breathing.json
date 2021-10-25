@@ -1,0 +1,20 @@
+{
+	"name": "No Lungs",
+	"description": "The lack of proper lungs means you can essentially breathe anywhere, even underwater.",
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 1,
+	"duration_per_stack": 60,
+	"effect": {
+		"effect": "minecraft:water_breathing",
+		"amplifier": 1,
+		"duration": 60,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false
+	},
+	"condition":{
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water"
+	}
+}

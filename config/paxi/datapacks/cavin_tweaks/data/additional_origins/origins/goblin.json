@@ -1,0 +1,14 @@
+{
+  "powers": [
+	"additional_origins:goblin_powers/short",
+	"additional_origins:goblin_powers/darksight",
+	"additional_origins:goblin_powers/poison_shot",
+	"additional_origins:goblin_powers/plunderer",
+	"additional_origins:goblin_powers/fast"
+  ],
+  "icon": "tacocraft:penca",
+  "order": 10,
+  "impact": 2,
+  "name":"Goblin",
+  "description": "Goblins are known for their short height and fast speeds."
+}

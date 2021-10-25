@@ -1,0 +1,29 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 240,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 5
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "execute at @s run playsound minecraft:entity.bat.ambient master @a[distance=..20] ~ ~ ~ 1 0.8",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "execute at @s run effect give @a[distance=..20] minecraft:weakness 3 0",
+				"permission_level": 4
+			}
+		]
+	},
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Squeak",
+	"description": "Let out a massive squeak."
+}

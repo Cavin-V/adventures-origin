@@ -1,0 +1,19 @@
+{
+	"name":"Naga",
+	"description":"Nagas are known as creatures of the water. Being able to breath underwater, but being weakened by the surface world.",
+	"powers": [
+		"additional_origins:naga_powers/summon_trident",
+		"origins:aqua_affinity",
+		"origins:aquatic",
+		"origins:swim_speed",
+		"origins:conduit_power_on_land",
+		"origins:water_vision",
+		"additional_origins:naga_powers/water_breathing",
+		"additional_origins:naga_powers/surface_weakness"
+	],
+	"icon": {
+		"item": "minecraft:cod"
+	},
+	"order": 1,
+	"impact": 2
+}

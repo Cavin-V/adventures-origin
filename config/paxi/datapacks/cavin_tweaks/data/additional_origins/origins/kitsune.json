@@ -1,0 +1,17 @@
+{
+  "powers": [
+	"additional_origins:kitsune_powers/hellfire",
+	"additional_origins:kitsune_powers/villager_manipulation",
+	"additional_origins:kitsune_powers/salt_fear",
+	"additional_origins:kitsune_powers/priest_fear",
+	"additional_origins:kitsune_powers/iron_weakness",
+	"additional_origins:kitsune_powers/fast",
+	"additional_origins:kitsune_powers/jump_boost",
+	"additional_origins:kitsune_powers/particles"
+  ],
+  "icon": "artofalchemy:activated_amaranth_pearl",
+  "order": 10,
+  "impact": 2,
+  "name":"Kitsune",
+  "description": "A counterpart to the lust feeding succubi, Fox Demons (referred to as Kitsune in myth), are corrupted foxes that feed on the emotions of love and infatuation."
+}

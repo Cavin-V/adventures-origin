@@ -1,0 +1,14 @@
+{
+	"type": "origins:launch",
+    "cooldown": 400,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "speed": 1.2,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+	"name": "Thruster Leap",
+	"description": "You can make a massive leap into the air, be careful of falling back down."
+}

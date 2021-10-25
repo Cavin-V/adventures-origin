@@ -1,0 +1,17 @@
+{
+	"name": "jump",
+	"description": "do it",
+	"hidden": "true",
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 1,
+	"duration_per_stack": 100,
+	"effect": {
+		"effect": "minecraft:jump_boost",
+		"duration":100,
+		"amplifier": 0,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"additional_origins:batling_powers/short",
+		"additional_origins:batling_powers/squeak",
+		"additional_origins:batling_powers/jump_boost",
+		"additional_origins:batling_powers/less_health",
+		"additional_origins:batling_powers/silver_weakness",
+		"additional_origins:batling_powers/flight",
+		"additional_origins:batling_powers/flying",
+		"additional_origins:batling_powers/fast"
+	],
+	"icon": "minecraft:pointed_dripstone",
+	"order": 10,
+	"impact": 2,
+	"name":"Batling",
+	"description": "Created by vampires through alchemy, batlings are tiny, bat humanoids that are undyingly loyal to their creators."
+}

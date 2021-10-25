@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"additional_origins:dhampir_powers/darksight",
+		"additional_origins:dhampir_powers/fast",
+		"additional_origins:dhampir_powers/silver_weakness",
+		"additional_origins:dhampir_powers/wood_weakness",
+		"additional_origins:dhampir_powers/toggle_frenzy",
+		"additional_origins:dhampir_powers/ravenous_frenzy"
+	],
+	"icon": "bewitchment:bottle_of_blood",
+	"order": 10,
+	"impact": 3,
+	"name":"Dhampir",
+	"description": "An incredibly rare, spited breed of creature spawned from a human and a vampire coupling."
+}

@@ -1,0 +1,20 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 1,
+	"duration_per_stack": 200,
+	"effect": {
+		"effect": "minecraft:weakness",
+		"amplifier": 0,
+		"duration": 200,
+		"is_ambient": false,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition": {
+		"type": "origins:in_rain"
+	},
+	"hidden": true,
+	"protection_enchantment": "origins:water_protection",
+	"protection_effectiveness": 1.0
+}

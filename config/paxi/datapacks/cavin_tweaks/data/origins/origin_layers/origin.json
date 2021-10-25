@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "order": 0,
+  "origins": [
+	"origins:human",
+	"additional_origins:arachnid",
+	"additional_origins:blazeborn",
+	"additional_origins:elytrian",
+	"additional_origins:wolf",
+	"additional_origins:inchling",
+	"additional_origins:enderian",
+	"additional_origins:naga",
+	"additional_origins:iron_giant",
+	"additional_origins:batling",
+	"additional_origins:goblin",
+	"additional_origins:dwarf",
+	"additional_origins:kitsune",
+	"additional_origins:dhampir",
+	"additional_origins:specter"
+  ]
+}

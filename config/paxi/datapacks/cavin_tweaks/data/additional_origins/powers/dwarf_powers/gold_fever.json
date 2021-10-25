@@ -1,0 +1,29 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 640,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 17
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:haste 16 2",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:hunger 10 0",
+				"permission_level": 4
+			}
+		]
+	},
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	},
+	"name": "Gold Fever",
+	"description": "Gain 16 seconds of mining haste, allowing you to mine much faster, but getting hungry faster."
+}

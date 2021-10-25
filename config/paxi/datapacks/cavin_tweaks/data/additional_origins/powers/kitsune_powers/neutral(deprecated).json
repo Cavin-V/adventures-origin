@@ -1,0 +1,126 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Neutral",
+    "description": "As a Kitsune, most overworld hostile mobs are passive toward you.",
+    "interval": 60,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team remove kitsune"
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add kitsune"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team modify kitsune seeFriendlyInvisibles false"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join kitsune @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:skeleton,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:spider,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:cave_spider,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:bee,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:creeper,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:enderman,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:evoker,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:pillager,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:silverfish,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:slime,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:vex,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:vindicator,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:witch,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:stray,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:husk,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:zombie,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:phantom,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:drowned,distance=..32]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run team join kitsune @e[type=minecraft:zombie_villager,distance=..32]"
+            }
+        ]
+    }
+}

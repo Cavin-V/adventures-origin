@@ -1,0 +1,10 @@
+{
+  "type": "origins:exhaust",
+  "interval": 20,
+  "hidden":true,
+  "exhaustion": 2.0,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:specter_powers/phantomize"
+  }
+}

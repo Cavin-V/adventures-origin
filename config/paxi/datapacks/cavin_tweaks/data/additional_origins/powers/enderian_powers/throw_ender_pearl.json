@@ -1,0 +1,18 @@
+{
+  "type": "origins:fire_projectile",
+  "cooldown": 400,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 6
+  },
+  "name":"Teleportation",
+  "description":"Every 20 seconds, you can produce an Ender pearl of your own to throw and use to teleport without taking damage.",
+  "entity_type": "origins:enderian_pearl",
+  "sound": "minecraft:entity.ender_pearl.throw",
+  "speed": 2.0,
+  "divergence": 1,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

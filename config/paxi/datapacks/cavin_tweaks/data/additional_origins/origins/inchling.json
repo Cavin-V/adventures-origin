@@ -1,0 +1,14 @@
+{
+  "name": "Inchling",
+  "description": "Inchlings are incredibly small creatures, able to fit into almost any space, and can even climb up walls.",
+  "powers": [
+	"extraorigins:bite_sized",
+	"extraorigins:nimble",
+	"extraorigins:small_appetite",
+	"origins:climbing",
+	"extraorigins:jockey"
+  ],
+  "icon": "anvil",
+  "order": 1,
+  "impact": 3
+}

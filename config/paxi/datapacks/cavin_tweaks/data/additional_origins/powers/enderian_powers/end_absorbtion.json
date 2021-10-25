@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:absorption",
+			"amplifier": 1,
+			"duration": 1200,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": true
+		}
+    },
+    "interval": 1200,
+    "condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:the_end"
+	},
+	"name": "No place like Home",
+	"description": "While in your home dimension, you gain absorbtion every 60 seconds."
+}

@@ -1,0 +1,57 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+	"fall":{
+		"type": "origins:modify_falling",
+		"velocity": 0.75,
+		"take_fall_damage": true,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:iron_giant_powers/falling"
+		}
+	},
+	"togglefalling": {
+		"type": "origins:action_when_damage_taken",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{	
+					"type": "origins:toggle",
+					"power": "*:iron_giant_powers/falling"
+				},
+				{
+					"type": "origins:explode",
+					"power": 4,
+					"destruction_type": "none",
+					"damage_self": false
+				}
+			]
+		},
+		"cooldown": 360,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:iron_giant_powers/falling"
+		},
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "fall"
+		},
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/resource_bar.png",
+			"bar_index": 5
+		}
+	},
+	"togglefallinginterval": {
+		"type": "origins:action_over_time",
+		"interval": 40,
+		"entity_action": {
+			"type": "origins:toggle",
+			"power": "additional_origins:iron_giant_powers/falling"
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:iron_giant_powers/falling"
+		}
+	}
+}

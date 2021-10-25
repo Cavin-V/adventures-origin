@@ -1,0 +1,10 @@
+{
+  "type": "origins:toggle",
+  "name":"Phantomize",
+  "description":"Become completely invisible and gain the ability to phase through any solid material that isn't obsidian. While phasing, you get hungry SIGNIFICANTLY faster than normal.",
+  "active_by_default": false,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

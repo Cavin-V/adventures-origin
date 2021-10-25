@@ -1,0 +1,149 @@
+{
+  "name": "Acquired Tastes",
+  "description": "You can consume the moss found in some caves. What? its not that bad...",
+  "type": "origins:multiple",
+  "mossblock": {
+	  "type": "origins:active_self",
+	  "hidden": true,
+	  "cooldown": 100,
+	  "key": {
+		"key": "key.use",
+		"continuous": true
+	  },
+	  "entity_action": {
+		"type": "origins:and",
+		"actions": [
+		  {
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "clear @s minecraft:moss_block 1"
+		  },
+		  {
+			"type": "origins:feed",
+			"food": 2,
+			"saturation": 0.2
+		  },
+		  {
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "playsound minecraft:entity.player.burp master @s"
+		  }
+		]
+	  },
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "origins:or",
+			"conditions": [
+			  {
+				"type": "origins:equipped_item",
+				"inverted": false,
+				"equipment_slot": "mainhand",
+				"item_condition": {
+				  "type": "origins:ingredient",
+				  "inverted": false,
+				  "ingredient": {
+					"item": "minecraft:moss_block"
+				  }
+				}
+			  },
+			  {
+				"type": "origins:equipped_item",
+				"inverted": false,
+				"equipment_slot": "offhand",
+				"item_condition": {
+				  "type": "origins:ingredient",
+				  "inverted": false,
+				  "ingredient": {
+					"item": "minecraft:moss_block"
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "origins:sneaking",
+			"inverted": true
+		  }
+		]
+	  },
+	  "hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 12
+	  }
+	},
+	"mosscarpet": {
+	  "type": "origins:active_self",
+	  "hidden": true,
+	  "cooldown": 100,
+	  "key": {
+		"key": "key.use",
+		"continuous": true
+	  },
+	  "entity_action": {
+		"type": "origins:and",
+		"actions": [
+		  {
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "clear @s minecraft:moss_carpet 1"
+		  },
+		  {
+			"type": "origins:feed",
+			"food": 1,
+			"saturation": 0.1
+		  },
+		  {
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "playsound minecraft:entity.player.burp master @s"
+		  }
+		]
+	  },
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "origins:or",
+			"conditions": [
+			  {
+				"type": "origins:equipped_item",
+				"inverted": false,
+				"equipment_slot": "mainhand",
+				"item_condition": {
+				  "type": "origins:ingredient",
+				  "inverted": false,
+				  "ingredient": {
+					"item": "minecraft:moss_carpet"
+				  }
+				}
+			  },
+			  {
+				"type": "origins:equipped_item",
+				"inverted": false,
+				"equipment_slot": "offhand",
+				"item_condition": {
+				  "type": "origins:ingredient",
+				  "inverted": false,
+				  "ingredient": {
+					"item": "minecraft:moss_carpet"
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"type": "origins:sneaking",
+			"inverted": true
+		  }
+		]
+	  },
+	  "hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 12
+	  }
+	}
+}

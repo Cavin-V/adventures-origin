@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"name": "Fast",
+	"description": "You are a bit faster than an average person.",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": "0.03"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type": "origins:multiple",
+	"flying":{
+		"type": "origins:stacking_status_effect",
+		"hidden":true,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:batling_powers/flight"
+		},
+		"min_stacks": 1,
+		"max_stacks": 1,
+		"duration_per_stack": 30,
+		"effect": {
+			"effect": "minecraft:levitation",
+			"amplifier": 1,
+			"duration": 30,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		}
+	},
+	"hunger": {
+		"type": "origins:exhaust",
+		"interval": 20,
+		"hidden":true,
+		"exhaustion": 2.0,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:batling_powers/flight"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Wolf",
+  "description": "Wolves are a natural born pack race, and are usually seen handling large packs of wolves.",
+  "powers": [
+    "moborigins:wolf_body",
+    "moborigins:full_moon",
+    "moborigins:alpha_wolf",
+    "moborigins:wolf_howl",
+    "moborigins:wolf_pack",
+    "origins:carnivore"
+  ],
+  "icon": "minecraft:bone",
+  "order": 2,
+  "impact": 1
+}

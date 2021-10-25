@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"name": "Cavin Tweaks",
+		"id": "cavin_tweaks",
+		"pack_format": 6,
+		"description": "Adds some tweaks made by Cavin",
+		"authors": "Cavin",
+		"version":"1.0"
+	}
+}

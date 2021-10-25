@@ -1,0 +1,19 @@
+{
+	"type": "origins:fire_projectile",
+	"cooldown": 260,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 7
+	},
+	"name":"Hellfire",
+	"description":"You can throw a ball of hellfire at your enemies to set them ablaze.",
+	"hidden": false,
+	"entity_type": "minecraft:small_fireball",
+	"sound": "minecraft:entity.blaze.shoot",
+	"speed": 1.0,
+	"divergence": 1,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	}
+}

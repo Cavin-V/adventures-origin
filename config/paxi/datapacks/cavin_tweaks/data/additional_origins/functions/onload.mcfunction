@@ -1,0 +1,15 @@
+scoreboard objectives add add_ori_tickloop dummy "TickLoop"
+scoreboard players set addOriTest add_ori_tickloop 0
+scoreboard players set addOri100 add_ori_tickloop 100
+scoreboard players set addOri97 add_ori_tickloop 97
+scoreboard players set addOri94 add_ori_tickloop 94
+scoreboard players set addOri90 add_ori_tickloop 90
+scoreboard players set addOri80 add_ori_tickloop 80
+scoreboard players set addOri70 add_ori_tickloop 70
+scoreboard players set addOri60 add_ori_tickloop 60
+scoreboard players set addOri50 add_ori_tickloop 50
+scoreboard players set addOri40 add_ori_tickloop 40
+scoreboard players set addOri30 add_ori_tickloop 30
+scoreboard players set addOri20 add_ori_tickloop 20
+scoreboard players set addOri10 add_ori_tickloop 10
+scoreboard players set addOri0 add_ori_tickloop 0

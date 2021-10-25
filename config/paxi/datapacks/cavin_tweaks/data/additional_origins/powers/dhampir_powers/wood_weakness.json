@@ -1,0 +1,76 @@
+{
+    "name": "Wood Aversion",
+    "description": "You take extra damage from any wood equipment.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:stick"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:wooden_sword"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:wooden_pickaxe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:wooden_axe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:wooden_shovel"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "minecraft:wooden_hoe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "campanion:wooden_spear"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "harvest_scythes:wooden_scythe"
+						}
+                    },
+                    {
+                        "type": "origins:ingredient",
+						"ingredient":{
+							"item": "harvest_scythes:wooden_machete"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "name": "Weak to wood items",
+        "operation": "addition",
+        "value": 3.0
+    }
+}

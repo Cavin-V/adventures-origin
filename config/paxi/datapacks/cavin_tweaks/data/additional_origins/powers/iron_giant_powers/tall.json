@@ -1,0 +1,48 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale multiply pehkui:height 1.325 @s",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale multiply pehkui:width 1.325 @s",
+				"permission_level": 4
+			}
+		]},
+  "entity_action_removed": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale divide pehkui:height 1.325 @s",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale divide pehkui:width 1.325 @s",
+				"permission_level": 4
+			}
+		]},
+  "entity_action_respawned": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale multiply pehkui:height 1.325 @s",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale multiply pehkui:width 1.325 @s",
+				"permission_level": 4
+			}
+		]},
+  "execute_chosen_when_orb": true,
+  "name": "Tall",
+  "description": "You are Taller than the average human, and can thus reach further."
+}
